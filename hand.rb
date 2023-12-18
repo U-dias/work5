@@ -44,8 +44,8 @@ direction=["上","下","右","左"]
   puts "You Win"
   return false
  else
-  puts "You Lose"
-  return false
+  puts "Retry"
+  return true
  end
 
 else
@@ -73,8 +73,8 @@ direction=["上","下","右","左"]
     puts "You Lose"
     return false
    else
-    puts "You Win"
-    return false
+    puts "Retry"
+    return true
    end
    end
 
